@@ -3,8 +3,11 @@
 - Create React App
 - Configured TailwindCSS
 - Header
+- Routing
 - Login Form 
 - Sign Up Form ( sign in and sign up page is single page just toggling based on state of isSignIn variable)
+- Form Validation
+- UseRef Hook
 
 
 
