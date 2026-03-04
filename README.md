@@ -4,7 +4,7 @@
 - Configured TailwindCSS
 - Header
 - Login Form 
-- Sign Up Form
+- Sign Up Form ( sign in and sign up page is single page just toggling based on state of isSignIn variable)
 
 
 
