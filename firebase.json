@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "netflixgpt-by-neeta",
+
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

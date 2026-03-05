@@ -8,6 +8,13 @@
 - Sign Up Form ( sign in and sign up page is single page just toggling based on state of isSignIn variable)
 - Form Validation
 - UseRef Hook
+- Firebase setup
+- Deploying app to production
+- Create SignUp User Account
+- Implement Sign In user Api
+- Created Redux Store with userSlice
+- Implement Sign out
+- Update Profile
 
 
 
