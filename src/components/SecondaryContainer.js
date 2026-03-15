@@ -4,7 +4,7 @@ import MovieList from "./MovieList";
 
 const SecondaryContainer = () => {
   const movies = useSelector((store) => store.movies);
-
+console.log(movies)
   return (
     movies.nowPlayingMovies && (
       <div className="bg-black">
@@ -18,13 +18,13 @@ const SecondaryContainer = () => {
 
       */}
           <MovieList title={"Now Playing"} movies={movies.nowPlayingMovies} />
-          <MovieList title={"Trending"} movies={movies.nowPlayingMovies} />
-          <MovieList title={"Popular"} movies={movies.nowPlayingMovies} />
+          <MovieList title={"Upcoming"} movies={movies.upcomingMovies} />
+          <MovieList title={"Popular"} movies={movies.popularMovie} />
           <MovieList
-            title={"Upcoming Movies"}
-            movies={movies.nowPlayingMovies}
+            title={"Top Rated"}
+            movies={movies.topRatedMovie}
           />
-          <MovieList title={"Horror"} movies={movies.nowPlayingMovies} />
+          <MovieList title={"Trending"} movies={movies.trendingMovies} />
         </div>
       </div>
     )
