@@ -36,7 +36,7 @@
 - made the browser page amazing with tailwind css
 - usePopularMovies custom hooks
 - useTopRatesMovies, useTrendingMovies , useUpcomingMovies custom hooks
-
+- GPT search feature
 
 
 # Features

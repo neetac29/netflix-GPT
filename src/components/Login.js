@@ -5,7 +5,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfi
 import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
-import { AVATAR_IMAGE } from "../utils/constants";
+import { AVATAR_IMAGE, BG_URL } from "../utils/constants";
 
 
 const Login = () => {
@@ -71,7 +71,6 @@ const Login = () => {
         signInWithEmailAndPassword(auth, email.current.value, password.current.value)
         .then((userCredential)=> {
             const user = userCredential.user
-            // console.log(user);
         })
         .catch((error)=>{
             const errorCode = error.code;
@@ -92,7 +91,7 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/75772f65-58b5-465f-b642-fa858b6168ca/web/IN-en-20260302-TRIFECTA-perspective_26418256-c5f3-4e9a-8160-a6b534228a2f_large.jpg"
+          src={BG_URL}
           alt="background_img"
         />
       </div>
