@@ -40,7 +40,7 @@
 - GPT search page 
 - GPT search bar
 - (BONUS) multi-language feature in our app
-
+- Integarte GPT APIs (get )
 
 # Features
 -Login/Sign-Up
