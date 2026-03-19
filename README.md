@@ -41,6 +41,13 @@
 - GPT search bar
 - (BONUS) multi-language feature in our app
 - Integarte GPT APIs (get )
+- fetched gptMovieSuggestion from TMDB
+- created gptSlice added data
+- reused movie list component to make movie suggestion container
+- memoization
+- added .env file 
+- adding .env file to gitignore
+- made site responsive
 
 # Features
 -Login/Sign-Up
